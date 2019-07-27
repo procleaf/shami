@@ -3,17 +3,17 @@ Shami Test Automation Framework
 ===============================
 Shami test automation framework is test framework which has the following 
 features:
-    * Non-interactive task creation.
-    * Logs are uploaded on servers for further querying.
-    * Emails are sent on test finishing.
+* Non-interactive task creation.
+* Logs are uploaded on servers for further querying.
+* Emails are sent on test finishing.
 
 Installation
 ============
-git clone https://github.com/procleaf/shami.git
-Add *shami* to your shell profile and export it::
-    export SHAMI=/path/to/shami
-Add *shami* to your PYTHONPATH::
-    export PYTHONPATH=$PYTHONPATH:$(dirname "${SHAMI}")
+    ``git clone https://github.com/procleaf/shami.git``
+Add *shami* to your shell profile and export it:
+    ``export SHAMI=/path/to/shami``
+Add *shami* to your PYTHONPATH:
+    ``export PYTHONPATH=$PYTHONPATH:$(dirname "${SHAMI}")``
 
 Run
 ===

@@ -1,0 +1,17 @@
+log
+*.pyc
+*~
+# vim files.
+*.sw[op]
+# ctag file.
+/tags
+# tmp directory.
+tmp
+# log files.
+*.log
+*.log.[0-9]
+# sqlite db file.
+*.db
+__pycache__
+# emacs bak file.
+*~

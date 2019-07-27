@@ -14,6 +14,7 @@ Add *shami* to your shell profile and export it:
     ``export SHAMI=/path/to/shami``
 Add *shami* to your PYTHONPATH:
     ``export PYTHONPATH=$PYTHONPATH:$(dirname "${SHAMI}")``
+Edit ``config.ini``, change *shami* to your shami path.
 
 Run
 ===

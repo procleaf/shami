@@ -1,0 +1,165 @@
+Automation framework started.
+Task file found: /share/scripts/alice/tasks/hello_world.task
+Task file found: /share/scripts/alice/tasks/sleep.task
+Automation framework stopped.
+Task /share/scripts/alice/tasks/hello_world.task started
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world.py started.
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world.py failed.
+Task /share/scripts/alice/tasks/sleep.task started
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world.py ended.
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world2.py started.
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world2.py failed.
+Test case /share/scripts/alice/feature/2.6.1/hello_world/hello_world2.py ended.
+Test case /share/scripts/alice/feature/2.4.0/sleep/sleep.py started.
+Task /share/scripts/alice/tasks/hello_world.task ended
+Test case /share/scripts/alice/feature/2.4.0/sleep/sleep.py passed.
+Test case /share/scripts/alice/feature/2.4.0/sleep/sleep.py ended.
+Task /share/scripts/alice/tasks/sleep.task ended
+Task sleep failed to run.
+NoneType: None
+2019-07-24 18:52:05,606 - system - INFO - Automation framework started.
+Automation framework started.
+2019-07-24 18:52:19,237 - system - INFO - Automation framework started.
+Automation framework started.
+2019-07-24 18:52:19,239 - system - INFO - Task file found: /share/scripts/shami/tasks/hello_world.task
+Task file found: /share/scripts/shami/tasks/hello_world.task
+2019-07-24 18:52:19,240 - system - INFO - Task file found: /share/scripts/shami/tasks/sleep.task
+Task file found: /share/scripts/shami/tasks/sleep.task
+2019-07-24 18:52:19,241 - system - INFO - Automation framework stopped.
+Automation framework stopped.
+2019-07-24 18:52:19,242 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task started
+Task /share/scripts/shami/tasks/hello_world.task started
+2019-07-24 18:52:19,243 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+2019-07-24 18:52:19,243 - system - INFO - Task /share/scripts/shami/tasks/sleep.task started
+Task /share/scripts/shami/tasks/sleep.task started
+2019-07-24 18:52:19,244 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+2019-07-24 18:52:19,245 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+2019-07-24 18:52:19,245 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+2019-07-24 18:52:19,245 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+2019-07-24 18:52:19,245 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+2019-07-24 18:52:19,245 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+2019-07-24 18:52:19,246 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task ended
+Task /share/scripts/shami/tasks/hello_world.task ended
+2019-07-24 18:52:29,324 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+2019-07-24 18:52:29,325 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+2019-07-24 18:52:29,326 - system - INFO - Task /share/scripts/shami/tasks/sleep.task ended
+Task /share/scripts/shami/tasks/sleep.task ended
+2019-07-24 18:53:10,700 - system - INFO - Automation framework started.
+Automation framework started.
+2019-07-24 18:53:10,703 - system - INFO - Task file found: /share/scripts/shami/tasks/hello_world.task
+Task file found: /share/scripts/shami/tasks/hello_world.task
+2019-07-24 18:53:10,703 - system - INFO - Task file found: /share/scripts/shami/tasks/sleep.task
+Task file found: /share/scripts/shami/tasks/sleep.task
+2019-07-24 18:53:10,704 - system - INFO - Automation framework stopped.
+Automation framework stopped.
+2019-07-24 18:53:10,706 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task started
+Task /share/scripts/shami/tasks/hello_world.task started
+2019-07-24 18:53:10,707 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+2019-07-24 18:53:10,707 - system - INFO - Task /share/scripts/shami/tasks/sleep.task started
+Task /share/scripts/shami/tasks/sleep.task started
+2019-07-24 18:53:10,707 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+2019-07-24 18:53:10,708 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+2019-07-24 18:53:10,708 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+2019-07-24 18:53:10,708 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+2019-07-24 18:53:10,709 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+2019-07-24 18:53:10,709 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+2019-07-24 18:53:10,709 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task ended
+Task /share/scripts/shami/tasks/hello_world.task ended
+2019-07-24 18:53:20,738 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+2019-07-24 18:53:20,738 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+2019-07-24 18:53:20,742 - system - INFO - Task /share/scripts/shami/tasks/sleep.task ended
+Task /share/scripts/shami/tasks/sleep.task ended
+2019-07-24 18:54:22,844 - system - INFO - Automation framework started.
+Automation framework started.
+2019-07-24 18:54:22,846 - system - INFO - Task file found: /share/scripts/shami/tasks/hello_world.task
+Task file found: /share/scripts/shami/tasks/hello_world.task
+2019-07-24 18:54:22,847 - system - INFO - Task file found: /share/scripts/shami/tasks/sleep.task
+Task file found: /share/scripts/shami/tasks/sleep.task
+2019-07-24 18:54:22,848 - system - INFO - Automation framework stopped.
+Automation framework stopped.
+2019-07-24 18:54:22,850 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task started
+Task /share/scripts/shami/tasks/hello_world.task started
+2019-07-24 18:54:22,850 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+2019-07-24 18:54:22,851 - system - INFO - Task /share/scripts/shami/tasks/sleep.task started
+Task /share/scripts/shami/tasks/sleep.task started
+2019-07-24 18:54:22,851 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+2019-07-24 18:54:22,852 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+2019-07-24 18:54:22,852 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+2019-07-24 18:54:22,852 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+2019-07-24 18:54:22,853 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+2019-07-24 18:54:22,853 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+2019-07-24 18:54:22,853 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task ended
+Task /share/scripts/shami/tasks/hello_world.task ended
+2019-07-24 18:54:32,880 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+2019-07-24 18:54:32,881 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+2019-07-24 18:54:32,971 - system - INFO - Task /share/scripts/shami/tasks/sleep.task ended
+Task /share/scripts/shami/tasks/sleep.task ended
+2019-07-24 18:54:32,972 - system - ERROR - Task sleep failed to run.
+NoneType: None
+Task sleep failed to run.
+NoneType: None
+2019-07-25 10:51:47,935 - system - INFO - Automation framework started.
+Automation framework started.
+2019-07-25 10:51:47,937 - system - INFO - Task file found: /share/scripts/shami/tasks/hello_world.task
+Task file found: /share/scripts/shami/tasks/hello_world.task
+2019-07-25 10:51:47,938 - system - INFO - Task file found: /share/scripts/shami/tasks/sleep.task
+Task file found: /share/scripts/shami/tasks/sleep.task
+2019-07-25 10:51:47,939 - system - INFO - Automation framework stopped.
+Automation framework stopped.
+2019-07-25 10:51:47,941 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task started
+Task /share/scripts/shami/tasks/hello_world.task started
+2019-07-25 10:51:47,941 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py started.
+2019-07-25 10:51:47,942 - system - INFO - Task /share/scripts/shami/tasks/sleep.task started
+Task /share/scripts/shami/tasks/sleep.task started
+2019-07-25 10:51:47,942 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py started.
+2019-07-25 10:51:47,943 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py failed.
+2019-07-25 10:51:47,943 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world.py ended.
+2019-07-25 10:51:47,943 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py started.
+2019-07-25 10:51:47,943 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py failed.
+2019-07-25 10:51:47,944 - system - INFO - Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+Test case /share/scripts/shami/feature/2.6.1/hello_world/hello_world2.py ended.
+2019-07-25 10:51:47,944 - system - INFO - Task /share/scripts/shami/tasks/hello_world.task ended
+Task /share/scripts/shami/tasks/hello_world.task ended
+2019-07-25 10:51:57,972 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py passed.
+2019-07-25 10:51:57,973 - system - INFO - Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+Test case /share/scripts/shami/feature/2.4.0/sleep/sleep.py ended.
+2019-07-25 10:51:58,060 - system - INFO - Task /share/scripts/shami/tasks/sleep.task ended
+Task /share/scripts/shami/tasks/sleep.task ended
+2019-07-25 10:51:58,061 - system - ERROR - Task sleep failed to run.
+NoneType: None
+Task sleep failed to run.
+NoneType: None

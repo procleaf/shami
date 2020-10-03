@@ -15,3 +15,5 @@ tmp
 __pycache__
 # emacs bak file.
 *~
+# python venv
+venv

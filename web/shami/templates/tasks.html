@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  {% for t in tasks_files %}
+    <p>{{ t }} <a href='#'>start task</a></p>
+  {% endfor %}
+{% endblock %}

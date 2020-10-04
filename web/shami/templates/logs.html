@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  {% for shamilog in shamilogs %}
+    <li>{{ shamilog.tester }} {{ shamilog.feature}} {{ shamilog.version }} <a href="{{ shamilog.logurl }}">{{ shamilog.logurl }}</a></li>
+  {% endfor %}
+{% endblock %}

@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block content %}
+  {% for r in res %}
+    <p>{{ r.path }} {{ r.locked }} <a href='#'>Resource detail</a></p>
+  {% endfor %}
+{% endblock %}

@@ -2,3 +2,11 @@
 - "Test 2.0"
 - Allow comments on test logs, test suite and test cases.  Make a like button.
 - Move software testing to the cloud.
+- Integrate test case writing in the web UI.
+- Seperate cli from web UI, so that both can work without interferring each other.
+- Add a chat function.
+- Integrate bug submit.
+- Support for test case execution pause, add a button to it too.  Supported 
+  through `kill -STOP PID` and `kill -CONT PID`.
+- Instant log update (this can not be done on the web page, maybe it's possible 
+  on mobile phone apps).

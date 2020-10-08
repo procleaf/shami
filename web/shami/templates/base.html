@@ -1,43 +1,36 @@
 <!DOCTYPE html>
 <html>
 <head>
-    {% block head %}
-        {% block metas %}
-            <meta charset="utf-8">
-        {% endblock metas %}
-
-        <title>{% block title %}Shami web UI{% endblock %}</title>
-        <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
-        {% block styles %}
-            <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css' ) }}">
-        {% endblock styles %}
-    {% endblock head %}
+  {% block head %}
+    {% block metas %}
+      <meta charset="utf-8">
+    {% endblock metas %}
+    <title>{% block title %}Shami web UI{% endblock %}</title>
+    <link rel="icon" type="image/x-icon" href="{{ url_for('static', filename='favicon.ico') }}">
+    {% block styles %}
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    {% endblock styles %}
+  {% endblock head %}
 </head>
+
 <body>
-<nav>
-    {% block nav %}
-        <ul>
-            <li><a href="{{ url_for('index') }}">Home</a></li>
-        </ul>
-    {% endblock %}
-</nav>
-
-{% include "_sidebar.html" %}
-
-<div class="main">
-    {% for message in get_flashed_messages() %}
-        <div class="alert">
-            {{ message }}
-        </div>
-    {% endfor %}
-    {% block content %}{% endblock %}
-</div>
-<footer>
-    {% block footer %}
-        <small> &copy; 2020 <a href="http://yefamily.site" title="yefamily.site">Qiming Ye</a>
-        </small>
-    {% endblock %}
-</footer>
-{% block scripts %}{% endblock %}
+  <div class="d-flex" id="wrapper">
+    {% include "_sidebar.html" %}
+    <div id="page-content-wrapper">
+      <div class="container-fluid">
+        {% block content %}{% endblock %}
+      </div>
+      <footer>
+        {% block footer %}
+          <small>&copy; 2020 <a href="http://yefamily.site" title="yefamily.site">Qiming Ye</a></small>
+        {% endblock %}
+      </footer>
+    </div>
+  </div>
+  {% block scripts %}
+    <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+  {% endblock %}
 </body>
 </html>

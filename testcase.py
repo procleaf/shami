@@ -1,4 +1,4 @@
-#! /usr/bin/env python
+#! /usr/bin/env python3
 
 # --------------------------------------------------------------------------
 #
@@ -55,11 +55,11 @@ class TestCase(object):
             self.start()
             execfile(self.test_case)
         except TestCaseFailed:
-            # Test case failed.
+            # Test case passed.
             self.pass_case()
             return False
         else:
-            # Test case passed.
+            # Test case failed.
             self.fail_case()
             return True
         finally:
